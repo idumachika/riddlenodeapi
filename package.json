@@ -1,0 +1,20 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "riddle app for techpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js"
+  },
+  "author": "iduma chika",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
